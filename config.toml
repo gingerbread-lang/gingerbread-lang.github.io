@@ -1,3 +1,6 @@
 baseURL = "https://gingerbread-lang.github.io"
 languageCode = "en-uk"
 title = "The Gingerbread Programming Language"
+
+[minify.tdewolff.html]
+keepWhitespace = false
