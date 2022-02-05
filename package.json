@@ -1,0 +1,19 @@
+{
+  "name": "gingerbread-lang.github.io",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Gingerbread’s website",
+  "scripts": {
+    "start": "hugo server --minify --buildFuture"
+  },
+  "browserslist": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "cssnano": "5",
+    "postcss-cli": "9",
+    "postcss-preset-env": "7",
+    "postcss-sorting": "7",
+    "postcss": "8"
+  }
+}
