@@ -1,13 +1,17 @@
 html {
-  font-size: 19px;
+  font-size: 21px;
 }
 
+$viewport-padding: 2rem;
+$viewport-width: 28rem;
+
 body {
-  font-family: portada-text;
+  font-family: bree;
+  font-weight: 300;
   line-height: 1.6;
 
-  padding: 2rem;
-  max-width: 32rem;
+  padding: $viewport-padding;
+  max-width: $viewport-width + $viewport-padding * 2;
   margin: {
     left: auto;
     right: auto;
