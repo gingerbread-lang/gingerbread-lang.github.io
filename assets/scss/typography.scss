@@ -8,6 +8,7 @@ $viewport-width: 28rem;
 body {
   font-family: bree;
   font-weight: 300;
+  font-feature-settings: "ss01";
   line-height: 1.6;
 
   padding: $viewport-padding;
